@@ -1,10 +1,10 @@
 import './Components.css';
 
-function Title() {
+function Title( text ) {
     return (
         <div className="container">
         <h1>
-              What's the total number of mana symbols?
+            {text.text}
         </h1>
     </div>
     );
