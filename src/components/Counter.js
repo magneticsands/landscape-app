@@ -1,6 +1,6 @@
 import './Components.css';
-import Plus from '../plus.svg';
-import Minus from '../minus.svg';
+import Plus from '../img/plus.svg';
+import Minus from '../img/minus.svg';
 
 
 function Counter({ color }) {

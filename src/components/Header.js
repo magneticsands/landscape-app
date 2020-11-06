@@ -1,5 +1,5 @@
 import './Components.css';
-import logo from '../logo.svg';
+import logo from '../img/logo.svg';
 import Menu from './Menu.js';
 
 function Header() {
