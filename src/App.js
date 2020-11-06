@@ -8,6 +8,30 @@ import PrimaryButton from './components/PrimaryButton.js';
 //import DisabledButton from './components/DisabledButton.js';
 
 function App() {
+  state = {
+    manalabel: [
+        {
+            id: 1,
+            title: 'White'
+        },
+        {
+            id: 2,
+            title: 'Blue'
+        },
+        {
+            id: 3,
+            title: 'Black'
+        },
+        {
+            id: 4,
+            title: 'Red'
+        },
+        {
+            id: 5,
+            title: 'Green'
+        }
+    ]
+}
   return (
     <div className="App">
       <Header />

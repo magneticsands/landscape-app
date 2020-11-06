@@ -7,7 +7,7 @@ function Mana() {
         <div className="mana-type">
         <img src={WhiteManaSymbol} alt="White-Mana" className="mana-symbol" />
         <label className="mana-label">
-            White
+            
         </label>
 </div>
 
