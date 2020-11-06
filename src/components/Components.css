@@ -1,0 +1,246 @@
+h1 {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+    padding: 36px 0;
+}
+
+
+.header-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 375px;
+    height: 78px;
+    background-color: #0F1721;  
+    align-items: center;
+}
+
+.header-logo {
+   display: inline-block;
+    width: 180px;
+    vertical-align: middle;
+    padding: 14px 0 14px 16px;
+  
+  
+}
+.menu {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    fill: #27d1c5;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0F1721;  
+    align-items: center;
+    padding: 14px 16px 14px 0px;
+
+}
+
+
+.primary-button {
+    width: 100%;
+    padding: 16px 16px ;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    background-color: #27d1c5;
+    line-height: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #1a1a1a;
+    font-size: 16px;
+    align-content: center;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    width: 100%;
+    padding: 16px 16px ;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    background-color: rgba(39, 209, 197, .9);
+    line-height: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #0C1219;
+    font-size: 16px;
+    align-content: center;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.disabled-button {
+    width: 100%;
+    padding: 16px 16px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    background-color: #4e4e4e;
+    line-height: 20px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #7b7b7b;
+    font-size: 16px;
+    align-content: center;
+    border-style: none;
+    border-radius: 3px;
+    cursor: help;
+}
+
+.mana-type {
+    display: inline-block;
+    
+}
+
+.mana-symbol {
+    height: 24px;
+    width: 24px;
+    border-style: none;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.mana-label {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 12px;
+}
+
+.minus-button {
+    background-color: transparent;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    padding: 12px;
+    color: #4e4e4e;
+    text-align: center;
+    align-content: center;
+    display: inline;
+}
+
+.value--white {
+    background-color: transparent;
+    padding: 8px 16px;
+    line-height: 20px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9fbd2;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.value--blue {
+    background-color: transparent;
+    padding: 8px 16px;
+    line-height: 20px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    color: #B1C5E8;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.value--black {
+    background-color: transparent;
+    padding: 8px 16px;
+    line-height: 20px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    color: #A9A4A3;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.value--red {
+    background-color: transparent;
+    padding: 8px 16px;
+    line-height: 20px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    color: #E9A483;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.value--green {
+    background-color: transparent;
+    padding: 8px 16px;
+    line-height: 20px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    color: #C2DDCC;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.counter {
+    display: inline-block;
+
+}
+
+.counter-button-container {
+    background-color: transparent;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    display: inline-block;
+    cursor: pointer;
+    border: transparent;
+}
+
+.counter-button-container:hover {
+    background-color: rgba(200, 200, 200, .1);
+    transition: ease-in-out .3s;
+}
+
+.plus-button {
+    display: inline-block;
+    padding: 12px 12px;
+    vertical-align: middle;
+    border: none;
+}
+
+.minus-button {
+    display: inline-block;
+    padding: 22px 13px;
+    vertical-align: middle;
+    border: none;
+
+}
+
+.mana-list-item {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
+}
+
+
+
+
+
+
+
