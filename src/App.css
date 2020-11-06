@@ -16,6 +16,7 @@ a {
 }
 
 .container {
+    /* text-align: center; */
     width: 375px;
     background-color: #0C1219;
     margin: 0 auto;

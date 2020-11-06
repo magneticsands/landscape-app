@@ -16,8 +16,7 @@ function App() {
       <ManaListItem color='black'/>
       <ManaListItem color='red'/>
       <ManaListItem color='green'/>
-
-      <PrimaryButton />
+      <PrimaryButton text='Continue to the next screen'/>
     </div>
   
   );

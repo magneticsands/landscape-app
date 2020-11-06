@@ -1,9 +1,11 @@
 import './Components.css';
 
-function DisabledButton() {
+function DisabledButton( text ) {
     return (
         <div className="container">
-      <button className="disabled-button">Disabled Button</button>
+      <button className="disabled-button">
+        {text.text}
+      </button>
       </div>
     );
   }
