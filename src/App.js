@@ -3,7 +3,6 @@ import Header from './components/Header.js';
 import Title from './components/Title.js';
 import ManaListItem from './components/ManaListItem.js';
 import PrimaryButton from './components/PrimaryButton.js';
-//import WhiteManaSymbol from '..src/white-mana-symbol.svg';
 //import DisabledButton from './components/DisabledButton.js';
 
 function App() {

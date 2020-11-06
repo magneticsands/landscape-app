@@ -6,33 +6,37 @@ import RedManaSymbol from '../img/red-mana-symbol.svg';
 import GreenManaSymbol from '../img/green-mana-symbol.svg';
 
 const type = {
-    'white':
-        src = {WhiteManaSymbol},
-        label: "White",
+    'white': {
+        src: WhiteManaSymbol,
+        label: "White"
+    }, 
 
-    'blue': 
-        src = {BlueManaSymbol},
-        label: "Blue",
+    'blue': {
+        src: BlueManaSymbol,
+        label: "Blue"
+    },
 
-    'black':
-        src = {BlackManaSymbol},
+    'black': { 
+        src: BlackManaSymbol,
         label: "Black",
-
-    'red':
-        src = {RedManaSymbol},
+    },
+    'red': {
+        src: RedManaSymbol,
         label: "Red",
-
-    'green':
-        src = {GreenManaSymbol},
+    },
+    'green': {
+        src: GreenManaSymbol,
         label: "Green",
-}
+    },
+    }
 
-function Mana({ type }) {
+
+function Mana({ color }) {
     return (
         <div className="mana-type">
         <img src={type[color].src} alt="White-Mana" className="mana-symbol" />
         <label className="mana-label">
-            {type.label.color}
+            {type[color].label}
         </label>
 </div>
 

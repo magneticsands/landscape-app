@@ -1,9 +1,17 @@
 import './Components.css';
 
-function PrimaryButton() {
+//const text = {
+  //'continue': {
+    //label: "continue"
+  //}
+//}
+
+function PrimaryButton( text ) {
     return (
         <div className="container">
-      <button className="primary-button">Primary Button</button>
+      <button className="primary-button">
+        Continue
+        </button>
       </div>
     );
   }

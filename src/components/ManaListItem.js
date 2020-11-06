@@ -7,7 +7,7 @@ function ManaListItem({ color }) {
     return (
       <div className="container">
             <div className="mana-list-item">
-              <ManaType type={color}/>
+              <ManaType color={color}/>
               <Counter color={color}/>
             </div>
         </div>
