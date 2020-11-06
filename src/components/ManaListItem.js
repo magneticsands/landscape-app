@@ -3,11 +3,11 @@ import ManaType from './ManaType.js';
 import Counter from './Counter.js';
 
 
-function ManaListItem({ color, src }) {
+function ManaListItem({ color }) {
     return (
       <div className="container">
             <div className="mana-list-item">
-              <ManaType src={src}/>
+              <ManaType />
               <Counter color={color}/>
             </div>
         </div>
