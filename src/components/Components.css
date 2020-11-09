@@ -66,21 +66,10 @@ h1 {
 }
 
 .primary-button:hover {
-    width: 100%;
-    padding: 16px 16px ;
-    margin-bottom: 24px;
-    margin-top: 24px;
-    background-color: rgba(39, 209, 197, .9);
-    line-height: 20px;
-    font-family: 'Roboto';
-    font-weight: 500;
-    color: #0C1219;
-    font-size: 16px;
-    align-content: center;
-    border-style: none;
-    border-radius: 3px;
-    cursor: pointer;
+    transform: scale(.95);
+    transition: ease-in-out .1s;
 }
+
 
 .disabled-button {
     width: 100%;
@@ -124,80 +113,137 @@ h1 {
     padding-left: 12px;
 }
 
-.minus-button {
-    background-color: transparent;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 24px;
-    padding: 12px 0;
-    color: #4e4e4e;
-    text-align: center;
-    align-content: center;
-    display: inline;
+.counter-button-container .plus-button,
+.plus-button:active {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 40px; 
+    stroke: #27d1c5;
 }
 
+.counter-button-container:disabled .plus-button,
+.plus-button:disabled{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 40px; 
+    stroke: #4e4e4e;
+    cursor: not-allowed;
+}
+
+.counter-button-container .minus-button,
+.minus-button:active {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 40px; 
+    stroke: #27d1c5;
+}
+.counter-button-container:disabled .minus-button,
+.minus-button:disabled:hover{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 40px; 
+    stroke: #4e4e4e;
+    background-color: none;
+    cursor: not-allowed;
+}
+
+
+
+.counter-button-container {
+    margin-right: 16px;
+   margin-left: 16px; 
+}
+
+
 .value--white {
+    text-align: center;
+    position: relative;
     background-color: transparent;
-    padding: 8px 16px;
+    padding: 0px 0px;
     line-height: 20px;
     font-family: 'Roboto';
     font-size: 24px;
     font-weight: 700;
-    color: #f9fbd2;
     display: inline-block;
     vertical-align: middle;
+    align-content: center;
+    width: 24px;
+    color: #f9fbd2;
+
 }
 
 .value--blue {
+    text-align: center;
+    position: relative;
     background-color: transparent;
-    padding: 8px 16px;
+    padding: 0px 0px;
     line-height: 20px;
     font-family: 'Roboto';
     font-size: 24px;
     font-weight: 700;
-    color: #B1C5E8;
     display: inline-block;
     vertical-align: middle;
+    align-content: center;
+    width: 24px;
+    color: #B1C5E8;
 }
 
 .value--black {
+    text-align: center;
+    position: relative;
     background-color: transparent;
-    padding: 8px 16px;
+    padding: 0px 0px;
     line-height: 20px;
     font-family: 'Roboto';
     font-size: 24px;
     font-weight: 700;
-    color: #A9A4A3;
     display: inline-block;
     vertical-align: middle;
+    align-content: center;
+    width: 24px;
+    color: #A9A4A3;
+
 }
 
 .value--red {
+    text-align: center;
+    position: relative;
     background-color: transparent;
-    padding: 8px 16px;
+    padding: 0px 0px;
     line-height: 20px;
     font-family: 'Roboto';
     font-size: 24px;
     font-weight: 700;
-    color: #E9A483;
     display: inline-block;
     vertical-align: middle;
+    align-content: center;
+    width: 24px;
+    color: #E9A483;
 }
 
 .value--green {
+    text-align: center;
+    position: relative;
     background-color: transparent;
-    padding: 8px 16px;
+    padding: 0px 0px;
     line-height: 20px;
     font-family: 'Roboto';
     font-size: 24px;
     font-weight: 700;
-    color: #C2DDCC;
     display: inline-block;
     vertical-align: middle;
+    align-content: center;
+    width: 24px;
+    color: #C2DDCC;
 }
 
 .counter {
     display: inline-block;
+    margin-right: -16px;
 
 }
 
@@ -216,20 +262,7 @@ h1 {
     transition: ease-in-out .3s;
 }
 
-.plus-button {
-    display: inline-block;
-    padding: 12px 0;
-    vertical-align: middle;
-    border: none;
-}
 
-.minus-button {
-    display: inline-block;
-    padding: 22px 13px;
-    vertical-align: middle;
-    border: none;
-
-}
 
 .mana-list-item {
    display: flex;
