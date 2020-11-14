@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Components.css';
-import Plus from '../img/plus.svg';
+//import Plus from '../img/plus.svg';
 //import Minus from '../components/Minus.js';
 //import Minus from '../img/minus.svg';
 //import { render } from 'react-dom';
