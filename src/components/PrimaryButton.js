@@ -1,9 +1,9 @@
 import './Components.css';
 
-function PrimaryButton( text ) {
+function PrimaryButton( props ) {
     return (
-      <button className="primary-button">
-        {text.text}
+      <button className="primary-button" onClick={() => props.onClick()}>
+        {props.text}
         </button>
     );
   }

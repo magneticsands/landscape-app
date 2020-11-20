@@ -10,7 +10,7 @@ const Counter = (props) => {
 
     return (
         <div className="counter">
-          <button disabled={count < 1} className="counter-button-container" onClick={() => setCount(count - 1)}>
+          <button disabled={props.value < 1} className="counter-button-container" onClick={() => props.decrement()}>
             <svg className="minus-button" width={20} height={2} viewBox="0 0 20 2" {...props}>
         <path
           fill=""
@@ -22,9 +22,9 @@ const Counter = (props) => {
       </svg>   
       </button>
             <span className={`value--${props.color}`}>
-               {count}
+               {props.value}
                 </span>
-            <button disabled={count > 29} className="counter-button-container" onClick={() => setCount(count + 1)}>
+            <button disabled={props.value > 29} className="counter-button-container" onClick={() => props.increment()}>
             <svg className="plus-button" width={22} height={22} viewBox="0 0 22 22" {...props}>
       <g fill="" stroke="" strokeLinecap="round" strokeWidth={2}>
         <path d="M11 1v20M1 11h20" />
